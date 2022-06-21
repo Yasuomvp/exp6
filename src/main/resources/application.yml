@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:mysql://workout996.icu/rick?createDatabaseIfNotExist=true&serverTimezone=Asia/Shanghai
+    username: rick
+    password: Yasuomvp131213
+
+  sql:
+    init:
+      mode: always
+
+logging:
+  level:
+    sql: debug
+    com:
+      example: debug
+  pattern:
+    console: '%-5level %C.%M[%line] - %msg%n'
+
+
