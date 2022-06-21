@@ -1,8 +1,7 @@
 package com.rick.exp6.repository;
 
 import com.rick.exp6.dox.Address;
-import com.rick.exp6.dox.User;
-import com.rick.exp6.dox.UserAndAddress;
+import com.rick.exp6.dto.UserAndAddress;
 import org.springframework.data.jdbc.repository.query.Query;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;

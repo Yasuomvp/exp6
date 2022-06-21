@@ -1,4 +1,4 @@
-package com.rick.exp6.dox;
+package com.rick.exp6.dto;
 
 import lombok.Data;
 import org.springframework.data.annotation.CreatedDate;
